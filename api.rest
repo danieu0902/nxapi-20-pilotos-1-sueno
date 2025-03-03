@@ -1,0 +1,66 @@
+# Ejemplos
+
+POST http://localhost:3000/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Eva", 
+    "edad": 20 
+}
+
+### 
+
+# POST http://localhost:3000/api/users HTTP/1.1
+# content-type: application/json
+
+# { 
+#     "nombre": "Eugenio", 
+#     "edad": 21 
+# }
+
+### 
+
+POST https://nxapi-mongodb-danieu0902.vercel.app/api/products HTTP/1.1
+content-type: application/json
+
+ { 
+     "nombre": "hola mundo", 
+     "precio": 30.33,
+     "stock": 1575,
+     "imagen_url": "https://www.marca.com/" 
+ }
+
+###
+
+GET https://nxapi-mongodb-danieu0902.vercel.app/api/products  HTTP/1.1
+content-type: application/json
+
+###
+
+GET https://nxapi-mongodb-danieu0902.vercel.app/api/products/67af6b67489566e4b5d094cc  HTTP/1.1
+content-type: application/json
+
+###
+
+PUT https://nxapi-mongodb-danieu0902.vercel.app/api/products/67af6b67489566e4b5d094cc  HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "bote colacao",
+    "precio": 3.5,
+    "stock": 3033,
+    "imagen_url": "https://as.com/"
+}
+
+###
+
+DELETE https://nxapi-mongodb-danieu0902.vercel.app/api/products/67af6b67489566e4b5d094cc HTTP/1.1
+content-type: application/json
+
+###
+
+DELETE https://nxapi-mongodb.vercel.app/api/users/6542da20c20d9ad95c739701 HTTP/1.1
+content-type: application/json
+
+### 
+
